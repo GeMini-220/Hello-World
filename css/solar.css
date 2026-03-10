@@ -1,3 +1,30 @@
 body {
     background-color: #000000;
 }
+
+.video-bg {
+    position: absolute; /* makes it a background layer */
+    top: 0;
+    left: 0; /* align to the left */
+    height: 100%;
+    object-fit: cover; /* makes video cover the area */
+    z-index: -1; /* keep it behind other content */
+    transform: scale(3) translateX(-40%); /* shift left if needed */
+}
+
+.content {
+    height: 100%;
+    position: relative; /* so it appears above the video */
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.question {
+    text-align: center;
+    margin-top: 22%;
+}
