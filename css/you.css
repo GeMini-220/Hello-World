@@ -16,6 +16,10 @@ body {
     font-size: 10vw;
 }
 
+.question {
+    margin-top: 1vh;
+}
+
 a {
     text-decoration: none;  
     color: blueviolet;
@@ -24,4 +28,14 @@ a {
 a:hover {
     color: aqua;
     text-decoration: underline;
+}
+
+#you-nav-back {
+    margin-top: 55vh;
+    font-size: 4vw;
+    color: blue;
+}
+
+#you-nav-back > a {
+    color: white;
 }
