@@ -1,0 +1,16 @@
+body {
+    background-color: #000000;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* horizontal center */
+    align-items: center;     /* vertical center */
+    text-align: center;
+}
+
+.answer-text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(203, 203, 198);
+    margin: auto;
+    font-size: 4vw;
+}
