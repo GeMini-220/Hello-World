@@ -49,7 +49,21 @@ button.addEventListener('click', () => {
 // Resume playback if it was playing
 if (isPlaying) {
   audio.play().catch(err => console.log('Autoplay blocked, user must press play'));
+  isPlaying = false;
 }
+
+window.addEventListener('pageshow', (event) => {
+  if (event.persisted) {
+    console.log('restoring audio playback on browser \'back\'');
+    // Restore audio state
+    const audio = document.getElementById('bgMusic');
+    const savedTime = localStorage.getItem('musicTime');
+    if(savedTime) audio.currentTime = parseFloat(savedTime);
+
+    const isPlaying = localStorage.getItem('musicPlaying') === 'true';
+    if(isPlaying) audio.play().catch(err => console.log('Autoplay blocked'));
+  }
+});
 
 updateButton();
 
