@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flowers</title>
+    <link rel="stylesheet" href="../css/flowers.css">
+</head>
+<body>
+    
+</body>
+
+<script>
+    const basePath = "../res/img/flowers/";
+
+    const images = [
+    "flower1.avif",
+    "flower2.jpg",
+    "flower3.jpg",
+    "flower4.jpg",
+    "flower5.jpg",
+    "flower6.jpg",
+    "flower7.jpg",
+    "flower8.webp",
+    "flower9.jpg",
+    "flower10.webp",
+    "flower11.avif"
+    ];
+
+    let i = 0;
+
+    setInterval(() => {
+    document.body.style.backgroundImage = `url(${basePath + images[i]})`;
+    i = (i + 1) % images.length;
+    }, 200);
+</script>
+
+</body>
+</html>

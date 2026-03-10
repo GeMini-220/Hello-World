@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    /* animation: slideshow 3s infinite; */
+    /* transition: background-image 0.1s; */
+}
+
+/* @keyframes slideshow {
+    0%   { background-image: url("../res/img/flowers/flower1.avif"); }
+    20%  { background-image: url("../res/img/flowers/flower2.jpg"); }
+    40%  { background-image: url("../res/img/flowers/flower3.jpg"); }
+    60%  { background-image: url("../res/img/flowers/flower4.jpg"); }
+    80%  { background-image: url("../res/img/flowers/flower5.jpg"); }
+    100% { background-image: url("../res/img/flowers/flower6.jpg"); }
+} */
