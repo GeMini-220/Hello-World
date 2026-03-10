@@ -14,3 +14,13 @@ body {
     margin: auto;
     font-size: 4vw;
 }
+
+a {
+    text-decoration: none;  
+    color: rgb(173, 217, 235);
+}
+
+a:hover {
+    color: aqua;
+    text-decoration: underline;
+}
