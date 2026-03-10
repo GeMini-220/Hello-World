@@ -1,0 +1,17 @@
+body {
+    background-image: url("../res/img/galaxy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000000;
+}
+
+#index_title {
+    font-size: xx-large;
+}
+
+#index_nav1 {
+    font-size: medium;
+    position: fixed;
+    left: 60vw;
+    top: 40vw;
+}
