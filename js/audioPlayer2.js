@@ -4,7 +4,7 @@
 const audio = document.createElement('audio');
 audio.id = 'bgMusic';
 audio.loop = true;
-audio.src = '/res/audio/softsuicide-the-first-day-of-snow.mp3';
+audio.src = '/Hello-World/res/audio/softsuicide-the-first-day-of-snow.mp3';
 document.body.appendChild(audio);
 
 // Create controls button
