@@ -12,3 +12,7 @@ body {
     margin-left: 5vw;
     font-size: large;
 }
+
+a {
+    color: rgb(189, 211, 230);
+}
