@@ -14,4 +14,7 @@
 </body>
 
 <script src="./js/audioPlayer.js"></script>
+<script>
+    audio.play().catch(err => console.log('Autoplay blocked, user must press play'));
+</script>
 </html>

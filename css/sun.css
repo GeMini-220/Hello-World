@@ -1,0 +1,46 @@
+body {
+    background-color: #000000;
+}
+
+.video-bg {
+    position: absolute; /* makes it a background layer */
+    top: 0;
+    left: 0; /* align to the left */
+    height: 100%;
+    object-fit: cover; /* makes video cover the area */
+    z-index: -1; /* keep it behind other content */
+    transform: scale(3); /* shift left if needed */
+}
+
+.content {
+    height: 100%;
+    position: relative; /* so it appears above the video */
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.text {
+    color: rgb(203, 203, 198);
+    margin: auto;
+    font-size: 3vw;
+}
+
+.text > .emphasize {
+    font-size: 8vw;
+}
+
+a {
+    text-decoration: none;  
+    color: rgb(235, 194, 198);
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    text-transform: scale(1.2);
+}
