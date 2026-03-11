@@ -7,6 +7,20 @@
     <title>sky</title>
 </head>
 <body style="display: flex; align-items: center;">
-    <p style="font-size: 13vw; margin: auto;"> <a href="../index.html"> The Sky </a> </p>
+    <p style="font-size: 13vw; margin: auto;"> <a href="#" onclick="goRandom()"> The Sky </a> </p>
 </body>
+
+<script>
+    function goRandom() {
+    const pages = [
+        "../index.html",
+        "./blue3.html",
+        "./blue3.html",
+    ];
+
+    const randomPage = pages[Math.floor(Math.random() * pages.length)];
+    window.location.href = randomPage;
+    }
+</script>
+
 </html>
