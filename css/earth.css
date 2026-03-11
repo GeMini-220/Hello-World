@@ -12,3 +12,12 @@ body {
     z-index: -1; /* keep it behind other content */
     transform: scale(1);
 }
+
+#nav-somewhere {
+    width: 100%;
+    position: fixed;
+    bottom: 5vh;
+    text-align: center;
+    margin: auto;
+    font-size: large;
+}

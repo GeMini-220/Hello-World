@@ -13,8 +13,21 @@
         Your browser does not support HTML5 video.
     </video>
 
-    <p class="question" id="q2"> <a href="answers/a2.html"> Where am I? </a> </p>
+    <p class="question" id="q2"> <a href="./answers/a2.html"> Where am I? </a> </p>
+    <p id="nav-somewhere"> <a href="#" onclick="goRandom()"> Take me somewhere. </a> </p>
 </body>
+
+<script>
+    function goRandom() {
+    const pages = [
+        "./places/kyoto.html",
+        "./earth.html",
+    ];
+
+    const randomPage = pages[Math.floor(Math.random() * pages.length)];
+    window.location.href = randomPage;
+    }
+</script>
 
 <script src="../js/audioPlayer.js"></script>
 </html>

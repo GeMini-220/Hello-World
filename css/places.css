@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #14181c;
+}
+
+.poem {
+    color: white;
+    margin-left: 5vw;
+    font-size: large;
+}
